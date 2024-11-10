@@ -1,0 +1,5 @@
+[dependencies]
+zmq = "0.10.0"              # ZeroMQ binding for Rust
+opencv = { version = "0.64", features = ["opencv-4"] }  # OpenCV binding for Rust
+onnxruntime = "0.12.0"      # ONNX Runtime for Rust
+ndarray = "0.15"            # N-dimensional array for Rust, commonly used for ML data
